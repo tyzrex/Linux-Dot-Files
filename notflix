@@ -1,0 +1,6 @@
+#!/bin/sh
+
+query=$(rofi -dmenu -p "Enter Movie Name: 🎥 " | tr ' ' '+' )
+movie=$(curl -s https://1337x.wtf/search/$query/1/ | grep -Eo "torrent\/[0-9]{7}\/[a-zA-Z0-9?%-]*/" | rofi -dmenu -l 15)
+magnet=$(curl -s https://1337x.wtf/$movie | grep -Po "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" | head -n 1)
+peerflix --vlc $magnet

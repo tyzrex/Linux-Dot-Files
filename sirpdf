@@ -1,0 +1,23 @@
+#!/bin/sh
+
+CONFIG_FILE="$HOME/.config/sirpdf"
+
+[ "$1" = "-s" ] && STDIN=$(cat /dev/stdin) || STDIN=$(cat "$CONFIG_FILE")
+
+# Capture only those lines who doesn't start with a tab character
+# Then Remove any characters after ':' leaving only the entry name
+selection=$(echo "$STDIN" | sed -n '/^[^[:space:]]/p' | sed -n 's/:.*//p' |rofi -dmenu -i)
+
+[ -z "$selection" ] && exit
+
+# Capture the line 
+selection_flag=$(echo "$STDIN" | sed -n "/^$selection/p" | sed -n -e 's/^.*: //p')
+
+# Check if the selection_flag is empty
+if [ -z "$selection_flag" ]; then
+	# Get the sub entries
+	subentries=$(echo "$STDIN" | sed -n "/^$selection/,/^[^[:space:]]/p" | sed -n -e "/^$/d" -e "/^[^[:space:]]/d" -e "s/^[[:space:]]//p")
+	echo "$subentries" | "$0" -s
+fi
+
+[ -d "$selection_flag" ] && xdg-open "$(find "$selection_flag" -name '*.pdf' | rofi -dmenu -l 5)" || xdg-open "$selection_flag"
