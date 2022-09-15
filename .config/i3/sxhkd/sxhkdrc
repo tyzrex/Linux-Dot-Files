@@ -11,10 +11,7 @@ super + shift + q
      i3-msg exit
 
 super + r
-   kitty -e "ranger"
-  
-super + i
-    ranger
+   exec ranger
 
 super + c
 	librewolf
@@ -24,6 +21,9 @@ super + f
 
 super + e
     rofi -show drun
+
+Print 
+    exec flameshot gui
 
 # Application Keybindings
 
