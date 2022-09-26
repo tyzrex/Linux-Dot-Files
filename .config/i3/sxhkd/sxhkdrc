@@ -150,3 +150,6 @@ alt + p
 
 ctrl + p
     ~/.config/rofi/powermenu/./powermenu.sh
+
+super + shift + t 
+    ./theme-select.sh

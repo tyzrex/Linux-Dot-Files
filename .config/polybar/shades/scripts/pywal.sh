@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+source zathura-pywal
 # Color files
 PFILE="$HOME/.config/polybar/shades/colors.ini"
 RFILE="$HOME/.config/polybar/shades/scripts/rofi/colors.rasi"
@@ -38,12 +38,12 @@ change_color() {
 	  fg:    ${FG}FF;
 	}
 	EOF
-	
+	zathura-pywal
 	polybar-msg cmd restart
 }
 
 # Main
-if [[ -f "/usr/bin/wal" ]]; then
+if [ -x "$(command -v wal)" ]; then
 	if [[ "$1" ]]; then
 		pywal_get "$1"
 
