@@ -16,7 +16,7 @@
 
 ## Showcase
 
-![](https://drive.google.com/file/d/1h33osjjwCfXzc2fwfcCbwSIX3OmCZecc/view?usp=sharing)
+![image](https://drive.google.com/file/d/1h33osjjwCfXzc2fwfcCbwSIX3OmCZecc/view?usp=sharing)
 
 ---
 
@@ -32,7 +32,7 @@
 
 A simple rofi meny to switch things on the go.
 
-![Theme](https://drive.google.com/file/d/1B9Ta2zjVd1QriKxdgLnQ5S1zCVR59RWM/view?usp=sharing)
+![image](https://drive.google.com/file/d/1B9Ta2zjVd1QriKxdgLnQ5S1zCVR59RWM/view?usp=sharing)
 
 ---
 
