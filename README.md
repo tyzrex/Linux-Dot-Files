@@ -16,7 +16,7 @@
 
 ## Showcase
 
-![](/home/sulavbaral/rice.jpg)
+![](https://drive.google.com/file/d/1h33osjjwCfXzc2fwfcCbwSIX3OmCZecc/view?usp=sharing)
 
 ---
 
@@ -32,7 +32,7 @@
 
 A simple rofi meny to switch things on the go.
 
-![](/home/sulavbaral/theme-switch.png)
+![Theme](https://drive.google.com/file/d/1B9Ta2zjVd1QriKxdgLnQ5S1zCVR59RWM/view?usp=sharing)
 
 ---
 
@@ -40,19 +40,19 @@ A simple rofi meny to switch things on the go.
 
 ###### Light Forest 
 
-![](/home/sulavbaral/light-forest.png)
+![Light Forest](https://drive.google.com/file/d/15mPXscIhG-OXQsXC_2b5XY0fcFPwxLwD/view?usp=sharing)
 
 ###### Sakura
 
-![](/home/sulavbaral/sakura.png)
+![Sakura](https://drive.google.com/file/d/1Zx8n57MzNFkyBcO0ZD9CBjq-kNWBGOhE/view?usp=sharing)
 
 ###### Lake 
 
-![](/home/sulavbaral/lake.png)
+![Lake](https://drive.google.com/file/d/1BGxly2VgdsQv4cxZ--Vf_fDV1qt07ib4/view?usp=sharing)
 
 ###### Dark Flower
 
-![](/home/sulavbaral/dark-flower.png)
+![Dark Flower](https://drive.google.com/file/d/1QUT94KKnY8KCg-x-d_H-L_qJkDUZ6jAz/view?usp=sharing)
 
 ---
 
