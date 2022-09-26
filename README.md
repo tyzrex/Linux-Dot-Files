@@ -16,7 +16,7 @@
 
 ## Showcase
 
-![](./rice.jpg)
+![](./images/rice.jpg)
 
 ---
 
@@ -32,7 +32,7 @@
 
 A simple rofi meny to switch things on the go.
 
-![image](./theme-switch.png)
+![image](./images/theme-switch.png)
 
 ---
 
@@ -40,11 +40,11 @@ A simple rofi meny to switch things on the go.
 
 ###### Light Forest 
 
-![Light Forest](./light-forest.png)
+![Light Forest](./images/light-forest.png)
 
 ###### Sakura
 
-![Sakura](./sakura.png)
+![Sakura](./images/sakura.png)
 
 ###### Lake 
 
@@ -52,7 +52,7 @@ A simple rofi meny to switch things on the go.
 
 ###### Dark Flower
 
-![Dark Flower](./dark-flower.png)
+![Dark Flower](./images/dark-flower.png)
 
 ---
 
