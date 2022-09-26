@@ -16,7 +16,7 @@
 
 ## Showcase
 
-![image](https://drive.google.com/file/d/1h33osjjwCfXzc2fwfcCbwSIX3OmCZecc/view)
+![](./rice.jpg)
 
 ---
 
@@ -32,7 +32,7 @@
 
 A simple rofi meny to switch things on the go.
 
-![image](https://drive.google.com/file/d/1B9Ta2zjVd1QriKxdgLnQ5S1zCVR59RWM/view)
+![image](./theme-switch.png)
 
 ---
 
@@ -40,19 +40,19 @@ A simple rofi meny to switch things on the go.
 
 ###### Light Forest 
 
-![Light Forest](https://drive.google.com/file/d/15mPXscIhG-OXQsXC_2b5XY0fcFPwxLwD/view)
+![Light Forest](./light-forest.png)
 
 ###### Sakura
 
-![Sakura](https://drive.google.com/file/d/1Zx8n57MzNFkyBcO0ZD9CBjq-kNWBGOhE/view)
+![Sakura](./sakura.png)
 
 ###### Lake 
 
-![Lake](https://drive.google.com/file/d/1BGxly2VgdsQv4cxZ--Vf_fDV1qt07ib4/view)
+![Lake](lake.png)
 
 ###### Dark Flower
 
-![Dark Flower](https://drive.google.com/file/d/1QUT94KKnY8KCg-x-d_H-L_qJkDUZ6jAz/view)
+![Dark Flower](./dark-flower.png)
 
 ---
 
