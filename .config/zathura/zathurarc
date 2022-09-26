@@ -1,22 +1,79 @@
+### Settings from original zathurarc ###
 set window-title-basename "false"
 set selection-clipboard "clipboard"
-
-set recolor 			true
-set recolor-lightcolor		"#000f14"
-set recolor-darkcolor		"#a0a0b4"
-set statusbar-bg		"#000f14"
-set statusbar-fg		"#a0a0b4"
-set default-bg			"#000f14"
-set default-fg			"#a0a0b4"
-set inputbar-bg			"#000f14"
-set inputbar-fg			"#a0a0b4"
-set completion-bg		"#000f14"
-set completion-fg		"#a0a0b4"
-set completion-highlight-bg	"#a0a0b4"
-set completion-highlight-fg	"#000f14"
-set completion-group-bg		"#000f14"
-set completion-group-fg		"#a0a0b4"
 set font 			"RobotoMono normal 12"
 set adjust-open			"best-fit"
 set page-padding		0
-map i				recolor
+
+### zathura-pywal ###
+# Allow recolor
+set recolor 'true'
+
+# Don't allow original hue when recoloring
+set recolor-keephue 'false'
+
+# Don't keep original image colors while recoloring
+set recolor-reverse-video 'false'
+
+# Command line completion entries
+set completion-fg '#b3b9ad'
+set completion-bg '#091112'
+
+# Command line completion group elements
+set completion-group-fg '#3B4F43'
+set completion-group-bg '#091112'
+
+# Current command line completion element
+set completion-highlight-fg '#091112'
+set completion-highlight-bg '#b3b9ad'
+
+# Default foreground/background color
+set default-bg rgba(9,17,18,1)
+
+# Input bar
+set inputbar-fg '#b3b9ad'
+set inputbar-bg '#091112'
+
+# Notification
+set notification-fg '#b3b9ad'
+set notification-bg '#091112'
+
+# Error notification
+set notification-error-fg '#b3b9ad'
+set notification-error-bg '#45563B'
+
+# Warning notification
+set notification-warning-fg '#b3b9ad'
+set notification-warning-bg '#45563B'
+
+# Tab - TODO
+# set tabbar-fg
+# set tabbar-bg
+
+# Focused tab - TODO
+# set tabbar-focus-fg
+# set tabbar-focus-bg
+
+# Status bar
+set statusbar-fg '#b3b9ad'
+set statusbar-bg '#091112'
+
+# Highlighting parts of the document (e.g. show search results)
+set highlight-color '#3B4F43'
+set highlight-active-color '#3B4F43'
+
+# Represent light/dark colors in recoloring mode
+set recolor-lightcolor rgba(0,0,0,0)
+set recolor-darkcolor '#b3b9ad'
+
+# 'Loading...' text
+set render-loading-fg '#b3b9ad'
+set render-loading-bg '#091112'
+
+# Index mode
+set index-fg '#b3b9ad'
+set index-bg '#091112'
+
+# Selected element in index mode
+set index-active-fg '#091112'
+set index-active-bg '#b3b9ad'
