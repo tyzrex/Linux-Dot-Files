@@ -48,7 +48,7 @@ A simple rofi meny to switch things on the go.
 
 ###### Lake 
 
-![Lake](/images/.lake.png)
+![Lake](./images/lake.png)
 
 ###### Dark Flower
 
