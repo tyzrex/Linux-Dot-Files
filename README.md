@@ -28,9 +28,9 @@
 
 ---
 
-##### Theme Switcher :
+#### Theme Switcher :
 
-A simple rofi meny to switch things on the go.
+A simple rofi menu to switch things on the go.
 
 ![image](./images/theme-switch.png)
 
