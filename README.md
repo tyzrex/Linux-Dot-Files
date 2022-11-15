@@ -1,22 +1,22 @@
-# i3-Greeny 
+# i3-Greeny
 
 ### System Information
 
-   - OS : Pop OS
-   - WM : i3
-   - Music Player : Spotify ( theme with spicetify )
-   - Launcher : Rofi
-   - File Manager : Thunar
-   - GTK-theme : Greeny (Custom made)
-   - Terminal : kitty
-   - DOTS : Here
-   - Credits : kudos to creators of Spicetify Rofi Pywal Spicetify Themes
+- OS : Pop OS
+- WM : i3
+- Music Player : Spotify ( theme with spicetify )
+- Launcher : Rofi
+- File Manager : Thunar
+- GTK-theme : Greeny (Custom made)
+- Terminal : kitty
+- DOTS : Here
+- Credits : kudos to creators of Spicetify Rofi Pywal Spicetify Themes
 
 ---
 
 ## Showcase
 
-![](./images/rice.jpg)
+![](./Docs/rice.jpg)
 
 ---
 
@@ -32,27 +32,27 @@
 
 A simple rofi meny to switch things on the go.
 
-![image](./images/theme-switch.png)
+![image](./Docs/theme-switch.png)
 
 ---
 
 ### Theme Showcase :
 
-###### Light Forest 
+###### Light Forest
 
-![Light Forest](./images/light-forest.png)
+![Light Forest](./Docs/light-forest.png)
 
 ###### Sakura
 
-![Sakura](./images/sakura.png)
+![Sakura](./Docs/sakura.png)
 
-###### Lake 
+###### Lake
 
-![Lake](./images/lake.png)
+![Lake](./Docs/lake.png)
 
 ###### Dark Flower
 
-![Dark Flower](./images/dark-flower.png)
+![Dark Flower](./Docs/dark-flower.png)
 
 ---
 
