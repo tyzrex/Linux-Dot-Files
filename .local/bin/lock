@@ -1,0 +1,47 @@
+	i3lock -n -c 00000033 -t -e --pass-media-keys --pass-power-keys --pass-volume-keys --indicator --force-clock \
+		--radius 52 --modif-size=9 --modif-pos="w/2:h/2-15" \
+		\
+		--time-str="%h:%m" \
+		--time-pos="w/2:h/4" \
+		--time-color=cb92f2 \
+		--time-size=120 \
+		--time-font="dm sans" \
+		\
+		--date-str="%a, %b %d" \
+		--date-pos="w/2:h/4+40" \
+		--date-color=ee6a70 \
+		--date-size=35 \
+		--date-font="dm sans" \
+		\
+		--verif-text="" \
+		--verif-color=7ba5dd \
+		--verif-size=10 \
+		--verif-font="sarasa mono cl nerd font" \
+		\
+		--wrong-text="" \
+		--wrong-color=ee6a70 \
+		--wrong-size=10 \
+		--wrong-font="sarasa mono cl nerd font" \
+		\
+		--greeter-text="" \
+		--greeter-color=96d6b0 \
+		--greeter-size=60 \
+		--greeter-font="material icons" \
+		--greeter-pos="w/2:h/2+285" \
+		\
+		--ring-color=00000000 \
+		--ringver-color=96d6b0 \
+		--ringwrong-color=ee6a70 \
+		--ring-width=5 \
+		\
+		--insidever-color=079a8c02 \
+		--insidewrong-color=079a8c02 \
+		--inside-color=079a8c02 \
+		--ind-pos="w/2:h-130" \
+		\
+		--noinput-text="" \
+		\
+		--line-uses-inside --keyhl-color=cb92f2 --bshl-color=ee6a70 --separator-color=00000000 \
+		\
+		--pointer=default
+

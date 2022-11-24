@@ -9,12 +9,11 @@ wal -R
 
 #!feh --bg-fill ~/.config/backgrounds/wallhaven-y8o51x_1920x1080.png &
 
-picom -b &
+picom --experimental-backends&
 numlockx on &
 nm-applet &
 volumeicon &
 dunst &
-# blueman-applet &
 
 # sxhkd
 sxhkd -c ~/.config/i3/sxhkd/sxhkdrc & 

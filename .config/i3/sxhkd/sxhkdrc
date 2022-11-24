@@ -4,6 +4,9 @@ super + Escape
 super + t
    kitty
 
+super + Return
+	kitty -e tmux
+
 super + p
 	dmenu_run
 
@@ -25,10 +28,16 @@ super + e
 Print 
     exec flameshot gui
 
+super + b 
+	rofi-bluetooth
+
 # Application Keybindings
 
 super + w
-    firefox-esr
+    exec google-chrome
+
+super + shift + w
+	rofi-wifi-menu.sh
 
 super + d 
  discord
@@ -77,7 +86,7 @@ XF86AudioNext
 XF86AudioPrev
     playerctl previous
 
-ctrl + shift + y
+ctrl + shift + fullstop
     playerctl next
 
 ctrl + shift + comma
@@ -87,7 +96,7 @@ XF86AudioStop
     playerctl stop
 
 alt + {r,t,y,u}
-   mpc {prev,next,play,pause}
+   playerctl {previous,next,play,pause}
 
 #i3 Specific Keybindings
 
@@ -140,7 +149,7 @@ super + shift + r
     i3-msg restart
 
 super + ctrl + {Left,Down,Up,Right}
-    i3-msg resize {grow width 1 px or 1 ppt, shrink height 1 px or 1 ppt, grow height 1 px or 1 ppt, shrink width 1 px or 1 ppt}
+    i3-msg resize {grow width 10 px or 10 ppt, shrink height 10 px or 10 ppt, grow height 10 px or 10 ppt, shrink width 10 px or 10 ppt}
 
 alt + m
     ./notflix
@@ -148,8 +157,14 @@ alt + m
 alt + p
     ./quickpdf.sh
 
-ctrl + p
+ctrl + shift + p
     ~/.config/rofi/powermenu/./powermenu.sh
 
 super + shift + t 
     ./theme-select.sh
+
+super + shift + e 
+  ~/discord-emote-menu/emote.sh
+
+super + x
+  quickpdf
