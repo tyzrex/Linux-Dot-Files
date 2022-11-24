@@ -11,8 +11,8 @@ bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 bindsym XF86TouchpadToggle exec ./toggle.sh
 
-bindsym Control+Mod4+l exec "i3lock --image ~/wallpapers/os/void-1920x1080.png"
-#exec "xautolock -detectsleep -time 3 -locker \"i3lock --image ~/wallpapers/os/void-1920x1080.png\""
+bindsym Mod4 + shift + l exec ~/.local/bin/lock
+exec "xautolock -detectsleep -time 3 -locker \"lock\""
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -41,3 +41,5 @@ client.background       $bg
 
 # PROTIP: You can also dynamically set dmenu's colors this way:
 bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+
+bindsym Mod4+shift+e exec rofi -show drun 
