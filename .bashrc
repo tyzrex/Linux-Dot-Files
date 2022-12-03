@@ -133,8 +133,7 @@ source ~/.cache/wal/colors-tty.sh
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export PATH=$PATH:/home/tyzrex/.spicetify
-alias config='/usr/bin/git --git-dir=/home/tyzrex/.cfg/ --work-tree=/home/tyzrex'
-. "$HOME/.cargo/env"
+
 export PATH=$PATH:/home/sulavbaral/.spicetify
 
 
