@@ -1,0 +1,7 @@
+#!/bin/sh
+
+query=$(~/.config/rofi/launchers/misc/launcher.sh -dmenu -l "Enter Movie Name: 🎥 " | tr ' ' '+' )
+movie=$(curl -s https://1337x.to/search/$query/1/ | grep -Eo "torrent\/[0-9]{7}\/[a-zA-Z0-9?%-]*/" |  ~/.config/rofi/launchers/misc/launcher.sh -dmenu -l 5)
+magnet=$(curl -s https://1337x.to/$movie | grep -Po "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" | head -n 1)
+dunstify Movie loading
+peerflix --mpv $magnet
