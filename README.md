@@ -6,7 +6,7 @@
 - WM : i3-gaps
 - Music Player : Spotify ( theme with spicetify )
 - Launcher : Rofi
-- File Manager : Thunar
+- File Manager : Nemo
 - GTK-theme : CozyGaps (Custom made)
 - Terminal : kitty
 
