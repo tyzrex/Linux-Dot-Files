@@ -1,0 +1,427 @@
+{
+  "symbols": [
+    {
+      "symbol": "\\frac{}{}",
+      "description": "Fraction"
+    },
+    {
+      "symbol": "\\sqrt{}",
+      "description": "Square root"
+    },
+    {
+      "symbol": "\\sum_{}^{}",
+      "description": "Summation"
+    },
+    {
+      "symbol": "\\prod_{}^{}",
+      "description": "Product"
+    },
+    {
+      "symbol": "\\int_{}^{}",
+      "description": "Integral"
+    },
+    {
+      "symbol": "\\lim_{}",
+      "description": "Limit"
+    },
+    {
+      "symbol": "\\max_{}^{}",
+      "description": "Maximum"
+    },
+    {
+      "symbol": "\\min_{}^{}",
+      "description": "Minimum"
+    },
+    {
+      "symbol": "\\overline{}",
+      "description": "Overline"
+    },
+    {
+      "symbol": "\\underline{}",
+      "description": "Underline"
+    },
+    {
+      "symbol": "\\overbrace{}",
+      "description": "Overbrace"
+    },
+    {
+      "symbol": "\\underbrace{}",
+      "description": "Underbrace"
+    },
+    {
+      "symbol": "\\begin{}",
+      "description": "Begin environment"
+    },
+    {
+      "symbol": "\\end{}",
+      "description": "End environment"
+    },
+    {
+      "symbol":"(x_0,x_1)",
+      "description": "x0,x1"
+    },
+    {
+      "symbol":"x_{0}",
+      "description": "x0"
+    },
+    {
+      "symbol":"x_{1}",
+      "description": "x1"
+    },
+    {
+      "symbol":"x_{2}",
+      "description": "x2"
+    },
+    {
+      "symbol":"x_{3}",
+      "description": "x3"
+    },
+    {
+      "symbol": "f(x_{0})",
+      "description": "f(x0)"
+    },
+    {
+      "symbol": "f(x_{1})",
+      "description": "f(x1)"
+    },
+    {
+      "symbol": "f(x_{2})",
+      "description": "f(x2)"
+    },
+    {
+      "symbol": "f(x_{3})",
+      "description": "f(x3)"
+    },
+    {
+      "symbol": "x_{0})",
+      "description": "f(x0)"
+    },
+    {
+      "symbol": "x_{1})",
+      "description": "(x1)"
+    },
+    {
+      "symbol": "x_{2})",
+      "description": "(x2)"
+    },
+    {
+      "symbol": "x_{3})",
+      "description": "(x3)"
+    },
+    {
+      "symbol": "x_{0},y_{0})",
+      "description": "(x0,y0)"
+    },
+    {
+      "symbol": "x_{1},y_{1})",
+      "description": "(x1,y1)"
+    },
+    {
+      "symbol": "x_{2},y_{2})",
+      "description": "(x2,y2)"
+    },
+    {
+      "symbol": "x_{3},y_{3})",
+      "description": "(x3,y3)"
+    },
+    {
+      "symbol": "x_{0},y_{0})",
+      "description": "(x0,y0)"
+    },
+    {
+      "symbol": "x_{1},y_{1})",
+      "description": "(x1,y1)"
+    },
+    {
+      "symbol": "x_{2},y_{2})",
+      "description": "(x2,y2)"
+    },
+    {
+      "symbol": "x_{3},y_{3})",
+      "description": "(x3,y3)"
+    },
+    {
+      "symbol": "x_{0},y_{0})",
+      "description": "f(x0,y0)"
+    },
+    {
+      "symbol": "x_{1},y_{1})",
+      "description": "f(x1,y1)"
+    },
+    {
+      "symbol": "x_{2},y_{2})",
+      "description": "f(x2,y2)"
+    },
+    {
+      "symbol":"(x_1,0",
+      "description": "x1,0"
+    },
+    {
+      "symbol":"(x_2,0",
+      "description": "x2,0"
+    },
+    {
+      "symbol":"(x_3,0",
+      "description": "x3,0"
+    },
+
+   
+       {
+      "symbol": "\\alpha",
+      "description": "Alpha"
+    },
+    {
+      "symbol": "\\beta",
+      "description": "Beta"
+    },
+    {
+      "symbol": "\\gamma",
+      "description": "Gamma"
+    },
+    {
+      "symbol": "\\delta",
+      "description": "Delta"
+    },
+    {
+      "symbol": "\\epsilon",
+      "description": "Epsilon"
+    },
+    {
+      "symbol": "\\zeta",
+      "description": "Zeta"
+    },
+    {
+      "symbol": "\\eta",
+      "description": "Eta"
+    },
+    {
+      "symbol": "\\theta",
+      "description": "Theta"
+    },
+    {
+      "symbol": "\\iota",
+      "description": "Iota"
+    },
+    {
+      "symbol": "\\kappa",
+      "description": "Kappa"
+    },
+    {
+      "symbol": "\\lambda",
+      "description": "Lambda"
+    },
+    {
+      "symbol": "\\mu",
+      "description": "Mu"
+    },
+    {
+      "symbol": "\\nu",
+      "description": "Nu"
+    },
+    {
+      "symbol": "\\xi",
+      "description": "Xi"
+    },
+    {
+      "symbol": "\\omicron",
+      "description": "Omicron"
+    },
+    {
+      "symbol": "\\pi",
+      "description": "Pi"
+    },
+    {
+      "symbol": "\\rho",
+      "description": "Rho"
+    },
+    {
+      "symbol": "\\sigma",
+      "description": "Sigma"
+    },
+    {
+      "symbol": "\\tau",
+      "description": "Tau"
+    },
+    {
+      "symbol": "\\upsilon",
+      "description": "Upsilon"
+    },
+    {
+      "symbol": "\\phi",
+      "description": "Phi"
+    },
+    {
+      "symbol": "\\chi",
+      "description": "Chi"
+    },
+    {
+      "symbol": "\\psi",
+      "description": "Psi"
+    },
+    {
+      "symbol": "\\omega",
+      "description": "Omega"
+    },
+    {
+      "symbol": "\\Gamma",
+      "description": "Gamma"
+    },
+    {
+      "symbol": "\\Delta",
+      "description": "Delta"
+    },
+    {
+      "symbol": "\\Theta",
+      "description": "Theta"
+    },
+    {
+      "symbol": "\\Lambda",
+      "description": "Lambda"
+    },
+    {
+      "symbol": "\\Xi",
+      "description": "Xi"
+    },
+    {
+      "symbol": "\\Pi",
+      "description": "Pi"
+    },
+    {
+      "symbol": "\\Sigma",
+      "description": "Sigma"
+    },
+    {
+      "symbol": "\\Upsilon",
+      "description": "Upsilon"
+    },
+    {
+      "symbol": "\\Phi",
+      "description": "Phi"
+    },
+    {
+      "symbol": "\\Psi",
+      "description": "Psi"
+    },
+    {
+      "symbol": "\\Omega",
+      "description": "Omega"
+    },
+    {
+      "symbol": "\\infty",
+      "description": "Infinity"
+    },
+    {
+      "symbol": "\\in",
+      "description": "Element of"
+    },
+    {
+      "symbol": "\\notin",
+      "description": "Not an element of"
+    },
+    {
+      "symbol": "\\ni",
+      "description": "Contains as member"
+    },
+    {
+      "symbol": "\\subset",
+      "description": "Subset of"
+    },
+    {
+      "symbol": "\\subseteq",
+      "description": "Subset of or equal to"
+    },
+    {
+      "symbol": "\\supset",
+      "description": "Superset of"
+    },
+    {
+      "symbol": "\\supseteq",
+      "description": "Superset of or equal to"
+    },
+    {
+      "symbol": "\\nsubseteq",
+      "description": "Not a subset of"
+    },
+    {
+      "symbol": "\\nsupseteq",
+      "description": "Not a superset of"
+    },
+    {
+      "symbol": "\\cap",
+      "description": "Intersection"
+    },
+    {
+      "symbol": "\\cup",
+      "description": "Union"
+    },
+    {
+      "symbol": "\\setminus",
+      "description": "Set minus"
+    },
+    {
+      "symbol": "\\emptyset",
+      "description": "Empty set"
+    },
+    {
+      "symbol": "\\forall",
+      "description": "For all"
+    },
+    {
+      "symbol": "\\exists",
+      "description": "There exists"
+    },
+    {
+      "symbol": "\\nexists",
+      "description": "There does not exist"
+    },
+    {
+      "symbol": "\\neg",
+      "description": "Negation"
+    },
+    {
+      "symbol": "\\land",
+      "description": "Logical and"
+    },
+    {
+      "symbol": "\\lor",
+      "description": "Logical or"
+    },
+    {
+      "symbol": "\\lnot",
+      "description": "Logical not"
+    },
+    {
+      "symbol": "\\implies",
+      "description": "Implies"
+    },
+    {
+      "symbol": "\\iff",
+      "description": "If and only if"
+    },
+    {
+      "symbol": "\\prime",
+      "description": "Prime"
+    },
+    {
+      "symbol": "\\nabla",
+      "description": "Nabla"
+    },
+    {
+      "symbol": "\\partial",
+      "description": "Partial differential"
+    },
+    {
+      "symbol": "\\surd",
+      "description": "Square root"
+    },
+    {
+      "symbol": "\\sqrt{}",
+      "description": "Square root"
+    },
+    {
+      "symbol": "\\sqrt[3]{}",
+      "description": "Cube root"
+    }
+  ]
+}
+
