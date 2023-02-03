@@ -10,23 +10,29 @@ super + Return
 super + p
 	dmenu_run
 
+super + shift + e
+    copy.sh
+
 super + shift + q
      i3-msg exit
 
 super + r
-   exec ranger
+   kitty -e ranger
 
 super + c
-	librewolf
+  brave-browser
 
 super + f
-	thunar
+	nemo
 
 super + e
     rofi -show drun
 
 Print 
     exec flameshot gui
+
+super + Print 
+    exec flameshot gui -d 3000
 
 super + b 
 	rofi-bluetooth
@@ -152,7 +158,7 @@ super + ctrl + {Left,Down,Up,Right}
     i3-msg resize {grow width 10 px or 10 ppt, shrink height 10 px or 10 ppt, grow height 10 px or 10 ppt, shrink width 10 px or 10 ppt}
 
 alt + m
-    ./notflix
+    notflix
 
 alt + p
     quickpdf
@@ -163,5 +169,10 @@ ctrl + shift + p
 super + shift + t 
     ./theme-select.sh
 
-super + shift + e 
-  ~/discord-emote-menu/emote.sh
+XF86TouchpadToggle
+  ~/.local/bin/toggle
+
+alt + shift + h
+  hide-show-polybar.sh
+
+
