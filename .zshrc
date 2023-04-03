@@ -43,6 +43,3 @@ export PATH=$PATH:/home/sulavbaral/.spicetify
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export SPOTIPY_CLIENT_ID='8bd337daa882422fab9fa86b2b68ad6a'
-export SPOTIPY_CLIENT_SECRET='80e01335a09a4615bda91bace2a4bb1e'
-export SPOTIPY_REDIRECT_URI='http://127.0.0.1:9090'
