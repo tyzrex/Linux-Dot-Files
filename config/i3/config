@@ -4,6 +4,7 @@ font pango:monospace 8
 
 exec_always --no-startup-id ~/.config/i3/autostart.sh
 exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id picom --experimental-backend
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod

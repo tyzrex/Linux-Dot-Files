@@ -7,4 +7,4 @@
 adapter = ACAD
 battery = BAT0
 graphics_card = amdgpu_bl0
-network_interface = enxf8e43b5c74dc
+network_interface = enp4s0f3u2c2

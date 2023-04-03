@@ -1,6 +1,6 @@
 [color]
-background = #af1E1E2E
-foreground = #F5E0DC
+background = #af000000
+foreground = #ebdbb2
 flamingo = #F2CDCD
 mauve = #DDB6F2
 pink = #F5C2E7

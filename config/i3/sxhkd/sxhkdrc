@@ -20,14 +20,13 @@ super + r
    kitty -e ranger
 
 super + c
-  brave-browser
+  brave
 
 super + f
-	nemo
+	thunar
 
 super + e
-    rofi -show drun
-
+    ~/.config/rofi/launchers/type-6/launcher.sh
 Print 
     exec flameshot gui
 
@@ -61,7 +60,7 @@ alt + f
     rofi -show filebrowser
 
 alt + e 
-    rofimoji
+    rofi -modi emoji -show emoji
 
 #Audio Keybindings
 
@@ -164,7 +163,7 @@ alt + p
     quickpdf
 
 ctrl + shift + p
-    ~/.config/rofi/powermenu/./powermenu.sh
+    ~/.config/rofi/powermenu/type-4/powermenu.sh
 
 super + shift + t 
     ./theme-select.sh
