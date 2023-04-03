@@ -1,111 +1,81 @@
-
-
-configuration{
-    modi: "run,drun,window";
-    lines: 5;
-    font: "JetBrainsMono Nerd Font 12";
-    show-icons: true;
-    icon-theme: "Oranchelo";
-    terminal: "kitty";
-    drun-display-format: "{icon} {name}";
-    location: 0;
-    disable-history: false;
-    hide-scrollbar: true;
-    display-drun: "   Apps ";
-    display-run: "   Run ";
-    display-window: " 﩯  window";
-    display-Network: " 󰤨  Network";
-    sidebar-mode: true;
+configuration {
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{name}";
+  font: "JetBrainsMono Nerd Font Medium 10";
+  modi: "window,run,drun";
+  show-icons: true;
 }
 
-@theme	"theme"	
-@import "~/.cache/wal/colors-rofi-dark"
+@theme "/dev/null"
 
-*{
-	border-radius:12;
-}
+* {
+  bg: #282828;
+  bg-alt: #252525;
 
-element-text, element-icon , mode-switcher {
-    background-color: inherit;
-    text-color:       inherit;
+  fg: #FFFFFF;
+  fg-alt: #787c99;
+    selected:                    #505050;
+    active:                      #909090;
+    urgent:                      #707070;
+  background-color: @bg;
+  
+  border: 1;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
 }
 
 window {
-    height: 500px;
-    width: 460px;
-    border: 1px;
-    border-color: @selected-normal-background;
-    background-color: @bg-col;
-}
-
-mainbox {
-    background-color: @bg-col;
-}
-
-inputbar {
-    children: [prompt,entry];
-    background-color: @bg-col;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-
-prompt {
-    background-color: @foreground;
-    padding: 6px;
-    text-color: black;
-    border-radius: 3px;
-    margin: 20px 0px 0px 20px;
-}
-
-textbox-prompt-colon {
-    expand: false;
-    str: ":";
-}
-
-entry {
-    padding: 6px;
-    margin: 20px 0px 0px 10px;
-    text-color: @fg-col;
-    background-color: @bg-col;
-}
-
-listview {
-    border: 0px 0px 0px;
-    padding: 6px 0px 0px;
-    margin: 10px 0px 0px 20px;
-    columns: 1;
-    background-color: @bg-col;
+  width: 30%;
 }
 
 element {
-    padding: 5px;
-    background-color: @bg-col;
-    text-color: @fg-col  ;
-}
-
-element-icon {
-    size: 25px;
+  padding: 8 0;
+  text-color: @fg-alt;
 }
 
 element selected {
-    background-color:  @selected-col ;
-    text-color: @fg-col2  ;
+  text-color: @fg;
 }
 
-mode-switcher {
-    spacing: 0;
-  }
-
-button {
-    padding: 10px;
-    background-color: @bg-col-light;
-    text-color: @grey;
-    vertical-align: 0.5; 
-    horizontal-align: 0.5;
+element-text {
+  text-color: inherit;
+  vertical-align: 0.5;
 }
 
-button selected {
-  background-color: @bg-col;
-  text-color: @blue;
+element-icon {
+  size: 14;
+  padding: 0 10 0 0;
 }
+
+entry {
+  background-color: @bg-alt;
+  padding: 12;
+  text-color: @fg;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+listview {
+  padding: 8 12;
+  background-color: @bg;
+  columns: 1;
+  lines: 8;
+}
+
+mainbox {
+  background-color: @bg;
+  children: [inputbar, listview];
+}
+
+prompt {
+  background-color: @bg-alt;
+  enabled: true;
+  padding: 12 0 0 12;
+  text-color: @fg;
+}
+
+/* vim: ft=sass
