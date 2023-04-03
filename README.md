@@ -1,4 +1,4 @@
-# i3-Gaps CozyGaps
+# i3-Gaps GruvGaps
 
 ### System Information
 
@@ -12,4 +12,4 @@
 
 ## Showcase
 
-![1680512777239](image/README/1680512777239.png)
+![1680516366260](image/README/1680516366260.png)
