@@ -2,14 +2,14 @@
 
 ### System Information
 
-- OS : Pop OS
+- OS : Manjaro
 - WM : i3-gaps
 - Music Player : Spotify ( theme with spicetify )
 - Launcher : Rofi
-- File Manager : Nemo
-- GTK-theme : CozyGaps (Custom made)
+- File Manager : Thunar
+- GTK-theme : Gruvbox
 - Terminal : kitty
 
 ## Showcase
 
-![1670037864392](image/README/1670037864392.png)
+![1680512777239](image/README/1680512777239.png)
