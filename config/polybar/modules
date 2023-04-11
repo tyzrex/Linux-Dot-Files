@@ -44,54 +44,12 @@ label = %output%
 format-prefix = " "
 format-padding = 1
 
-[module/my-text-label]
-type = custom/text
-content = bspwm
-content-font = 2
-content-padding = 1
-
-[module/bspwm]
-type = internal/bspwm
-pin-workspaces = true
-enable-click = true
-enable-scroll = true
-reverse-scroll = true
-format = <label-state> <label-mode>
-
-label-focused = %name%
-label-focused-foreground = ${color.blue}
-label-focused-underline =  ${color.blue}
-label-focused-padding = 1
-
-label-occupied = %name%
-label-occupied-foreground = ${color.green}
-label-occupied-underline = ${color.green}
-label-occupied-padding = 1
-
-label-urgent = %name%
-label-urgent-foreground = ${color.red}
-label-urgent-underline =  ${color.red}
-label-urgent-padding = 1
-
-label-empty = %name%
-label-empty-foreground = ${color.foreground}
-label-empty-padding = 1
-
-label-monocle = "[M]"
-label-tiled = "[]="
-label-floating = ", ><>"
-label-pseudotiled = ", P"
-label-fullscreen = ", F"
-label-locked = " | L"
-label-sticky = " | S"
-label-private = " | Private"
-
 [module/battery]
 type = internal/battery
 full-at = 99
 battery = ${system.battery}
 adapter = ${system.adapter}
-content-foreground= ${color.blue}
+content-foreground= ${color.red}
 poll-interval = 2
 time-format = %H:%M
 format-charging = <animation-charging> <label-charging>
@@ -122,6 +80,7 @@ interval = 5
 format-volume = <ramp-volume> <label-volume>
 format-volume-padding = 1 
 format-muted = 婢 Muted
+format-muted-foreground = ${color.bright_red}
 format-muted-padding = 1
 label-volume = %percentage%%
 ramp-volume-0 = 奄
@@ -147,12 +106,24 @@ ramp-8 = 
 ramp-9 = 
 format-padding = 1
 
+[module/date]
+type = internal/date
+interval = 1.0
+time = " %I:%M %p"
+time-alt = "  %a, %d %b %Y"
+
+format = <label>
+format-padding = 1 
+
+label = %time%
+
 [module/time]
 type = internal/date
-time = "%A, %d/%m/%y, %I:%M %p"
+time = " %I:%M %p"
 format = <label>
 format-prefix = " "
 label = %time%
+click-left = "%A, %d/%m/%y" + time
 format-padding = 1
 
 [module/powermenu]
@@ -160,7 +131,7 @@ type = custom/text
 content = 
 content-font = 2
 content-padding = 1
-content-foreground = ${color.red}
+content-foreground = ${color.bright_red}
 click-left = $HOME/.local/bin/powermenu
 
 [module/spotify]
@@ -171,6 +142,7 @@ format = <label>
 exec = ~/.local/bin/spotify.sh
 click-left = playerctl --player=spotify play-pause
 click-right = playerctl --player=spotify next
+format-foreground = #748479
 
 [module/title]
 type = internal/xwindow

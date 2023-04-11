@@ -65,13 +65,13 @@ alt + e
 #Audio Keybindings
 
 XF86AudioRaiseVolume
-        amixer -c 1 -- sset Master 2db+
+        exec ~/.config/dunst-back/scripts/volume up
 
 XF86AudioLowerVolume
-        amixer -c 1 -- sset Master 2db-
+        exec ~/.config/dunst-back/scripts/volume down
 
 XF86AudioMute
-        amixer -c 1 -- sset Master toggle
+        exec ~/.config/dunst-back/scripts/volume mute
 
 alt + d
         amixer -c 1 -- sset Master 2db+
