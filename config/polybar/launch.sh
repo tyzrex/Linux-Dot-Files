@@ -41,7 +41,11 @@ launch_bar() {
 	fi
 		
 	if [[ ! $(pidof polybar) ]]; then
+<<<<<<< HEAD
 		polybar -q bar -c "$DIR"/config.ini &
+=======
+		polybar -q bar -c "$DIR"/config &
+>>>>>>> 19918f47c527e4f04a3c8ea4a1835fb8a7f9f9ab
 	else
 		polybar-msg cmd restart
 	fi
