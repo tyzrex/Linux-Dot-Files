@@ -3,22 +3,13 @@ set $mod Mod4
 font pango:monospace 8
 
 exec_always --no-startup-id ~/.config/i3/autostart.sh
-<<<<<<< HEAD
-=======
-exec_always --no-startup-id ~/.config/polybar/launch.sh
->>>>>>> 19918f47c527e4f04a3c8ea4a1835fb8a7f9f9ab
 exec_always --no-startup-id picom --experimental-backend
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-<<<<<<< HEAD
 bindsym XF86MonBrightnessUp exec ~/.config/dunst-back/scripts/brightness up
 bindsym XF86MonBrightnessDown exec ~/.config/dunst-back/scripts/brightness down 
-=======
-bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
->>>>>>> 19918f47c527e4f04a3c8ea4a1835fb8a7f9f9ab
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
