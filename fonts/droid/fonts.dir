@@ -1,0 +1,169 @@
+168
+DroidKufi-Bold.ttf -misc-droid arabic kufi-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidKufi-Regular.ttf -misc-droid arabic kufi-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidNaskh-Bold.ttf -misc-droid arabic naskh-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidNaskh-Regular-SystemUI.ttf -monotype-droid naskh shift alt-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidNaskh-Regular.ttf -misc-droid arabic naskh-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-adobe-standard
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-ascii-0
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-1
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-10
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-13
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-15
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-16
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-2
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-3
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-4
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-5
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-7
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-9
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-koi8-e
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-koi8-r
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-koi8-ru
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-koi8-u
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-koi8-uni
+DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-adobe-standard
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-ascii-0
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-1
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-10
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-13
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-15
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-16
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-2
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-3
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-4
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-5
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-7
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-9
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-koi8-e
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-koi8-r
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-koi8-ru
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-koi8-u
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-koi8-uni
+DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+DroidSansArabic.ttf -misc-droid sans arabic-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansArabic.ttf -misc-droid sans arabic-medium-r-normal--0-0-0-0-p-0-iso8859-6.16
+DroidSansArabic.ttf -misc-droid sans arabic-medium-r-normal--0-0-0-0-p-0-iso8859-6.8x
+DroidSansArmenian.ttf -monotype-droid sans armenian-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansDevanagari-Regular.ttf -monotype-droid sans devanagari-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansEthiopic-Bold.ttf -misc-droid sans ethiopic-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansEthiopic-Regular.ttf -misc-droid sans ethiopic-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-cns11643-1
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-cns11643-2
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-cns11643-3
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-gb18030.2000-0
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-gb2312.1980-0
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-jisx0201.1976-0
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-jisx0208.1983-0
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-jisx0208.1990-0
+DroidSansFallbackFull.ttf -misc-droid sans fallback-medium-r-normal--0-0-0-0-p-0-ksc5601.1987-0
+DroidSansGeorgian.ttf -monotype-droid sans georgian-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansHebrew-Bold.ttf -misc-droid sans hebrew-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansHebrew-Regular.ttf -misc-droid sans hebrew-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-adobe-standard
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-ascii-0
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-1
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-10
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-13
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-15
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-16
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-2
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-3
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-4
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-5
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-7
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-9
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-e
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-r
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-ru
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-u
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-uni
+DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+DroidSansTamil-Bold.ttf -monotype-droid sans tamil-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansTamil-Regular.ttf -monotype-droid sans tamil-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSansThai.ttf -misc-droid sans thai-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-adobe-standard
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-ascii-0
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-1
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-10
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-13
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-15
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-16
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-2
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-3
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-4
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-5
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-7
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-9
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-koi8-e
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-koi8-r
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-koi8-ru
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-koi8-u
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-koi8-uni
+DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-adobe-standard
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-ascii-0
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso10646-1
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-1
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-10
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-13
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-15
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-16
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-2
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-3
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-4
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-5
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-7
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-9
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-koi8-e
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-koi8-r
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-koi8-ru
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-koi8-u
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-koi8-uni
+DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-microsoft-cp1252
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-adobe-standard
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-ascii-0
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso10646-1
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-1
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-10
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-13
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-15
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-16
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-2
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-3
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-4
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-5
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-7
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-9
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-koi8-e
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-koi8-r
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-koi8-ru
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-koi8-u
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-koi8-uni
+DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-adobe-standard
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-ascii-0
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-1
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-10
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-13
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-15
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-16
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-2
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-3
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-4
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-5
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-7
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-9
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-e
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-r
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-ru
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-u
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-uni
+DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
