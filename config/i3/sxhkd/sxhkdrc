@@ -125,6 +125,9 @@ super + alt + a
 super + {1-9,0}
     i3-msg workspace {1-9,10}
 
+alt + shift + {1-5}
+  i3-msg workspace {11-15}
+
 super + shift + {1-9,0}
     i3-msg move container to workspace number {1-9,10}
     
@@ -174,4 +177,9 @@ XF86TouchpadToggle
 alt + shift + h
   hide-show-polybar.sh
 
+super + shift + m
+    secondscreen.sh
+
+super + alt + m
+    stopsecond.sh
 
