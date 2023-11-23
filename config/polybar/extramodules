@@ -1,0 +1,500 @@
+;==========================================================
+[colors]
+background = ${xrdb:background-clr:#0A0E14}
+background-dim = ${xrdb:background-dim-clr:#161320}
+foreground = ${xrdb:foreground-clr:#000000}
+foreground-dim = ${xrdb:foreground-dim-clr:#C9cbff}
+
+black = ${xrdb:black-clr:#01060E}
+red = ${xrdb:red-clr:#EA6C73}
+green = ${xrdb:green-clr:#91B362}
+yellow = ${xrdb:yellow-clr:#F9AF4F}
+blue = ${xrdb:blue-clr:#53BDFA}
+magenta = ${xrdb:magenta-clr:#FAE994}
+cyan = ${xrdb:cyan-clr:#90E1C6}
+white = ${xrdb:white-clr:#C7C7C7}
+
+[default]
+module-foreground = ${colors.background}
+module-background = ${colors.white}
+
+#triangle-right = %{T2}█%{T-}
+#triangle-left = %{T2}█%{T-}
+
+#triangle-right = %{T2}%{T-}
+#triangle-left = %{T2}%{T-}
+
+#triangle-right = %{T2} %{T-}
+triangle-left = %{T2} %{T-}
+
+triangle-right = %{T2}%{T-}
+#triangle-left = %{T2}%{T-}
+
+#triangle-right = %{T2}█ %{T-}
+#triangle-left = %{T2} █%{T-}
+
+#triangle-right = %{T2} %{T-}
+#triangle-left = %{T2} %{T-}
+
+#triangle-right = %{T2}%{T-}
+#triangle-left = %{T2}%{T-}
+
+#triangle-right = %{T2}█%{T-}
+#triangle-left = %{T2}%{T-}
+
+#triangle-right = %{T2}%{T-}
+#triangle-left = %{T2}%{T-}
+
+;==========================================================
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+
+; Define fallback values used by all module formats
+#format-foreground = 
+#format-background = 
+#format-underline =
+#format-overline =
+#format-spacing =
+#format-padding = 0
+#format-margin =
+#format-offset =
+
+
+[module/new-date]
+type = internal/date
+
+background = ${colors.yellow}
+
+interval = 1
+
+date = %H:%M 
+date-alt = %A, %d %B %Y
+
+format = <label>
+format-padding = 0
+label = " 󰥔 %date% "
+
+format-foreground = ${colors.foreground-dim}
+#format-background = ${self.background}
+
+#format-prefix = ${default.triangle-left}
+#format-prefix-foreground = ${self.background}
+#format-prefix-background = ${root.background}
+
+#format-suffix = ${default.triangle-right}
+#format-suffix-foreground = ${self.background}
+#format-suffix-background = ${root.background}
+
+[module/bspwm]
+type = internal/xworkspaces
+
+background = ${colors.foreground-dim}
+
+pin-workspaces = true
+occupied-scroll = true
+
+#format = %{T4}<label-state>%{T-} <label-mode>
+format = %{T4}<label-state>%{T-} 
+format-background = ${self.background}
+
+format-prefix = ${default.triangle-left}
+format-prefix-foreground = ${self.background}
+format-prefix-background = ${root.background}
+
+format-suffix = ${default.triangle-right}
+format-suffix-background = ${root.background}
+format-suffix-foreground = ${self.background}
+
+ws-icon-0 = 1;󰈹
+ws-icon-1 = 2;󰅬
+ws-icon-2 = 3;
+ws-icon-3 = 4;󰨞
+ws-icon-4 = 5;
+ws-icon-default = 
+
+
+#label-active = %icon%
+label-active = ████
+label-active-foreground = ${colors.background}
+#label-active-underline= ${colors.red}
+label-active-padding = 1
+
+#label-occupied = %icon%
+#label-occupied = 
+label-occupied = 
+label-occupied-foreground = ${colors.background}
+label-occupied-padding = 1
+
+label-urgent = %name%
+label-urgent-background = ${colors.red}
+label-urgent-padding = 1
+
+#label-empty = %icon%
+label-empty = 
+label-empty-foreground = ${colors.background}
+label-empty-padding = 1
+
+
+
+
+label-monocle = m
+label-monocle-foreground = ${colors.background}
+
+label-tiled = t
+label-tiled-foreground = ${colors.background}
+
+label-fullscreen = f
+label-fullscreen-foreground = ${colors.background}
+
+label-floating = y
+label-floating-foreground = ${colors.background}
+
+label-pseudotiled = P
+label-pseudotiled-foreground = ${colors.background}
+
+label-locked = l
+label-locked-foreground = ${colors.background}
+
+label-sticky = s
+label-sticky-foreground = ${colors.background}
+
+label-private = p
+label-private-foreground = ${colors.background}
+
+label-marked = M
+label-marked-foreground = ${colors.background}
+
+
+
+;==========================================================
+[module/xwindow]
+type = internal/xwindow
+label = "  %title:0:20:...%  "
+label-foreground = ${colors.foreground-dim}
+#label-background = ${colors.background-dim}
+
+;==========================================================
+[module/new-memory]
+type = internal/memory
+background = ${colors.red}
+
+interval = 2
+
+;format = <label> <bar-used>
+#format = <ramp-used> <label>
+format = %{A1:alacritty -e top:}󰍛 <label> %{A}
+label = %used:2%
+
+#format-background = ${self.background}
+format-foreground = ${colors.foreground-dim}
+
+#format-prefix = ${default.triangle-left}
+#format-prefix-foreground = ${self.background}
+#format-prefix-background = ${root.background}
+#
+#format-suffix = ${default.triangle-right}
+#format-suffix-background= ${root.background}
+#format-suffix-foreground= ${self.background}
+
+format-padding = 0
+
+ramp-used-0 = 󰫃
+ramp-used-1 = 󰫃
+ramp-used-2 = 󰫃
+ramp-used-3 = 󰫄
+ramp-used-4 = 󰫅
+ramp-used-5 = 󰫆
+ramp-used-6 = 󰫇
+ramp-used-7 = 󰫈
+
+
+;==========================================================
+[network-base]
+type = internal/network
+background = ${colors.cyan}
+interval = 5
+
+format-connected = <label-connected>
+
+#format-connected-background = ${self.background}
+format-connected-foreground = ${colors.foreground-dim}
+
+#format-connected-prefix = ${default.triangle-left}
+#format-connected-prefix-foreground = ${self.background}
+#format-connected-prefix-background = ${root.background}
+#
+#format-connected-suffix = ${default.triangle-right}
+#format-connected-suffix-background= ${root.background}
+#format-connected-suffix-foreground= ${self.background}
+;format-disconnected = <label-disconnected>
+;label-disconnected = %{F#F0C674}%ifname%%{F#707880} disconnected
+
+;==========================================================
+[module/new-wlan]
+inherit = network-base
+interface-type = wireless
+label-connected = %{A1:alacritty -e nmtui:} 󰖩 %essid%  %{A}
+
+;==========================================================
+[module/new-eth]
+inherit = network-base
+interface-type = wired
+;speed-unit = ''
+
+udspeed-minwidth = 1
+accumulate-stats = true
+#label-connected =  %{A1:alacritty -e nmtui:}󱎔 %ifname%%{A}
+label-connected =  %{A1:alacritty -e nmtui:} 󱘖  %{A}
+
+
+;==========================================================
+[module/new-battery]
+type = internal/battery
+background =#DDB6F2
+
+
+low-at = 15
+full-at = 99
+battery = ${system.battery}
+adapter = ${system.adapter}
+;poll-interval = 5
+
+format-charging = " <animation-charging> <label-charging>"
+label-charging = %percentage%%
+
+format-charging-foreground = #000000
+format-charging-background = ${self.background}
+
+format-charging-prefix = ${default.triangle-left}
+format-charging-prefix-foreground = ${self.background}
+format-charging-prefix-background = ${root.background}
+
+format-charging-suffix = ${default.triangle-right}
+format-charging-suffix-foreground = ${self.background}
+format-charging-suffix-background = ${root.background}
+
+animation-charging-framerate = 100
+animation-charging-0 = 󰢜
+animation-charging-1 = 󰂆
+animation-charging-2 = 󰂇
+animation-charging-3 = 󰂈
+animation-charging-4 = 󰢝
+animation-charging-5 = 󰂉
+animation-charging-6 = 󰢞
+animation-charging-7 = 󰂊
+animation-charging-8 = 󰂋
+animation-charging-9 = 󰂅
+
+
+
+
+
+format-discharging = " <ramp-capacity> <label-discharging> "
+label-discharging = %percentage%%
+
+#format-discharging-background = ${self.background}
+format-discharging-foreground = ${colors.foreground-dim}
+
+#format-discharging-prefix = ${default.triangle-left}
+#format-discharging-prefix-foreground = ${self.background}
+#format-discharging-prefix-background = ${root.background}
+
+#format-discharging-suffix = ${default.triangle-right}
+#format-discharging-suffix-foreground = ${self.background}
+#format-discharging-suffix-background = ${root.background}
+
+
+ramp-capacity-0 = 󰁺
+ramp-capacity-1 = 󰁻
+ramp-capacity-2 = 󰁼
+ramp-capacity-3 = 󰁽
+ramp-capacity-4 = 󰁾
+ramp-capacity-5 = 󰁿
+ramp-capacity-6 = 󰂀
+ramp-capacity-7 = 󰂁
+ramp-capacity-8 = 󰂂
+ramp-capacity-9 = 󰁹
+
+
+
+format-full = <label-full>
+label-full = 󰂏 %percentage_raw%% 
+
+
+format-full-background = ${self.background}
+format-full-foreground = ${colors.background}
+
+format-full-prefix = ${default.triangle-left}
+format-full-prefix-foreground = ${self.background}
+format-full-prefix-background = ${root.background}
+
+format-full-suffix = ${default.triangle-right}
+format-full-suffix-foreground = ${self.background}
+format-full-suffix-background = ${root.background}
+
+
+
+
+format-low = <animation-low> <label-low>
+label-low = %percentage%%
+
+
+
+format-low-background = ${colors.red}
+format-low-foreground = ${colors.background}
+
+format-low-prefix = ${default.triangle-left}
+format-low-prefix-foreground = ${colors.red}
+format-low-prefix-background = ${root.background}
+
+format-low-suffix = ${default.triangle-right}
+format-low-suffix-foreground = ${colors.red} 
+format-low-suffix-background = ${root.background}
+
+animation-low-0 = 󱃍
+animation-low-1 = " "
+animation-low-framerate = 200
+
+#label-discharging-foreground = ${colors.primary}
+
+;==========================================================
+[module/pulseaudio]
+type = internal/pulseaudio
+background = ${colors.background-dim}
+
+
+use-ui-max = true
+interval = 5
+
+format-volume = 󰕾 <label-volume> <ramp-volume>
+label-volume = %percentage%%
+
+format-volume-background = #96CDFB
+format-volume-foreground = ${colors.black}
+
+format-volume-prefix = ${default.triangle-left}
+format-volume-prefix-foreground = #96CDFB
+format-volume-prefix-background = ${colors.background}
+
+format-volume-suffix = ${default.triangle-right}
+format-volume-suffix-foreground = #96CDFB
+format-volume-suffix-background = ${colors.background}
+
+#ramp-volume-0 = 󰖁
+#ramp-volume-1 = 󰕿
+#ramp-volume-2 = 󰖀
+#ramp-volume-3 = 󰕾
+
+ramp-volume-9 = %{T4}%{F#000000}███████%{F-}%{F#707880}%{F-}%{T-}
+ramp-volume-8 = %{T4}%{F#000000}███████%{F-}%{F#707880}%{F-}%{T-}
+ramp-volume-7 = %{T4}%{F#000000}██████%{F-}%{F#707880}█%{F-}%{T-}
+ramp-volume-6 = %{T4}%{F#000000}█████%{F-}%{F#707880}██%{F-}%{T-}
+ramp-volume-5 = %{T4}%{F#000000}████%{F-}%{F#707880}███%{F-}%{T-}
+ramp-volume-4 = %{T4}%{F#000000}███%{F-}%{F#707880}████%{F-}%{T-}
+ramp-volume-3 = %{T4}%{F#000000}██%{F-}%{F#707880}█████%{F-}%{T-}
+ramp-volume-2 = %{T4}%{F#000000}█%{F-}%{F#707880}██████%{F-}%{T-}
+ramp-volume-1 = %{T4}%{F#000000}%{F-}%{F#707880}███████%{F-}%{T-}
+ramp-volume-0 = %{T4}%{F#000000}%{F-}%{F#707880}███████%{F-}%{T-}
+
+
+
+format-muted = <label-muted>
+label-muted = 󰖁 muted
+
+format-muted-background = #96CDFB
+format-muted-foreground = ${colors.background}
+
+format-muted-prefix = ${default.triangle-left}
+format-muted-prefix-foreground = #96CDFB
+format-muted-prefix-background = ${colors.background}
+
+format-muted-suffix = ${default.triangle-right}
+format-muted-suffix-foreground = #96CDFB
+format-muted-suffix-background = ${root.background}
+
+
+
+;==========================================================
+[module/new-backlight]
+type = internal/backlight
+card = amdgpu_bl2
+;use-actual-brightness = false
+;
+background = ${colors.foreground-dim}
+
+enable-scroll = true
+
+format = 󰃠 <label> <ramp>
+
+format-background = #FAE3B0
+format-foreground = ${colors.background}
+
+format-prefix = ${default.triangle-left}
+format-prefix-foreground =#FAE3B0
+format-prefix-background = ${root.background}
+
+format-suffix = ${default.triangle-right}
+format-suffix-foreground = #FAE3B0
+format-suffix-background = ${root.background}
+
+
+#ramp-3 = 󰃠
+#ramp-2 = 󰃟
+#ramp-1 = 󰃝
+#ramp-0 = 󰃞
+
+ramp-9 = %{T4}%{F#0A0E14}███████%{F-}%{F#45475A}%{F-}%{T-}
+ramp-8 = %{T4}%{F#0A0E14}███████%{F-}%{F#45475A}%{F-}%{T-}
+ramp-7 = %{T4}%{F#0A0E14}██████%{F-}%{F#45475A}█%{F-}%{T-}
+ramp-6 = %{T4}%{F#0A0E14}█████%{F-}%{F#45475A}██%{F-}%{T-}
+ramp-5 = %{T4}%{F#0A0E14}████%{F-}%{F#45475A}███%{F-}%{T-}
+ramp-4 = %{T4}%{F#0A0E14}███%{F-}%{F#45475A}████%{F-}%{T-}
+ramp-3 = %{T4}%{F#0A0E14}██%{F-}%{F#45475A}█████%{F-}%{T-}
+ramp-2 = %{T4}%{F#0A0E14}█%{F-}%{F#45475A}██████%{F-}%{T-}
+ramp-1 = %{T4}%{F#0A0E14}%{F-}%{F#45475A}███████%{F-}%{T-}
+ramp-0 = %{T4}%{F#0A0E14}%{F-}%{F#45475A}███████%{F-}%{T-}
+
+
+;==========================================================
+[module/new-power-menu]
+type = custom/text
+click-left = power-menu
+
+background = ${colors.background-dim}
+
+#content = %{T1}   %{T-}
+content = %{T1} ⏻  %{T-}
+content-foreground = ${colors.foreground}
+#content-background = ${self.background}
+
+#content-prefix = ${default.triangle-left}
+#content-prefix-foreground = ${self.background}
+#content-prefix-background = ${root.background}
+
+#content-suffix = ${default.triangle-right}
+#content-suffix-background = ${root.background}
+#content-suffix-foreground = ${self.background}
+
+;==========================================================
+
+
+;==========================================================
+[module/launchpad]
+type = custom/text
+click-left = rofi -show drun 
+
+background = ${colors.blue}
+
+content = %{T1} 󰍜 %{T-}
+content-foreground = ${colors.foreground-dim}
+#content-background = ${self.background}
+
+#content-prefix = ${default.triangle-left}
+#content-prefix-foreground = ${self.background}
+#content-prefix-background = ${root.background}
+
+#content-suffix = ${default.triangle-right}
+#content-suffix-background = ${root.background}
+#content-suffix-foreground = ${self.background}

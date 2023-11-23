@@ -11,7 +11,7 @@ super + p
 	dmenu_run
 
 super + shift + e
-    copy.sh
+    ~/.local/bin/copy.sh
 
 super + shift + q
      i3-msg exit
@@ -42,7 +42,7 @@ super + w
     exec google-chrome
 
 super + shift + w
-	rofi-wifi-menu.sh
+	~/.local/bin/rofi-wifi-menu.sh
 
 super + d 
  discord
@@ -65,13 +65,13 @@ alt + e
 #Audio Keybindings
 
 XF86AudioRaiseVolume
-        exec ~/.config/dunst-back/scripts/volume up
+        exec ~/.local/bin/volume.sh up
 
 XF86AudioLowerVolume
-        exec ~/.config/dunst-back/scripts/volume down
+        exec ~/.local/bin/volume.sh down
 
 XF86AudioMute
-        exec ~/.config/dunst-back/scripts/volume mute
+        exec ~/.local/bin/volume.sh mute
 
 alt + d
         amixer -c 1 -- sset Master 2db+
@@ -125,9 +125,6 @@ super + alt + a
 super + {1-9,0}
     i3-msg workspace {1-9,10}
 
-alt + shift + {1-5}
-  i3-msg workspace {11-15}
-
 super + shift + {1-9,0}
     i3-msg move container to workspace number {1-9,10}
     
@@ -175,11 +172,19 @@ XF86TouchpadToggle
   ~/.local/bin/toggle
 
 alt + shift + h
-  hide-show-polybar.sh
+  ~/.local/bin/hide-show-polybar.sh
 
 super + shift + m
-    secondscreen.sh
+    ~/.local/bin/secondscreen.sh
 
 super + alt + m
-    stopsecond.sh
+    ~/.screenlayout/monitor.sh
 
+alt + shift + e 
+ ~/.local/bin/emote.sh
+
+alt + shift + w 
+ ~/Documents/api-interfaces/rofi_quicktype.sh
+
+alt+ shift + i 
+  rofi-bluetooth

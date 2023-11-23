@@ -8,8 +8,11 @@ exec_always --no-startup-id picom --experimental-backend
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-bindsym XF86MonBrightnessUp exec ~/.config/dunst-back/scripts/brightness up
-bindsym XF86MonBrightnessDown exec ~/.config/dunst-back/scripts/brightness down 
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
+
+set $fm eDP
+set $sm HDMI-A-0
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
@@ -20,7 +23,7 @@ set_from_resource $fg i3wm.color5 #f0f0f0
 set_from_resource $bg i3wm.color2 #f0f0f0
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused          $fg     $bg     $fg  $bg       $bg
 client.focused_inactive $bg     $bg     $fg  $bg       $bg
 # client.unfocused        $bg     $bg     $fg  $bg       $bg
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222

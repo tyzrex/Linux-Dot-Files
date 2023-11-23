@@ -6,15 +6,18 @@
 # Add this to your .xinitrc or whatever file starts programs on startup.
 # -R restores the last colorscheme that was in use.
 wal -R
-
+nitrogen --restore&
 numlockx on &
 nm-applet &
 volumeicon &
-dunst -config ~/.config/dunst-back/dunstrc &
+dunst -config ~/.config/dunst/dunstrc &
 # blueman-applet &
 dbus-launch&
-~/.config/polybar/launch.sh&
 
-# sxhkd
+
+
+~/.config/polybar/launch.sh&
+#~/.config/polybar/launchpolybar.sh&
 sxhkd -c ~/.config/i3/sxhkd/sxhkdrc &
+
 
